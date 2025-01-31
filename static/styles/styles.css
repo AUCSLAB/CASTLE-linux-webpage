@@ -1,0 +1,41 @@
+/* ------------------GLOBAL STYLES-------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: "Michroma", sans-serif;
+}
+/* NAV BAR */
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Image Sizing */
+header #nav_img {
+    width: 180px;
+    height: 180px;
+}
+/* Image and text container */
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-right: 150px;
+  }
+/* Center text in image */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  /* Remove margin from right most container */
+  .container:last-child {
+    margin-right: 0;
+}
