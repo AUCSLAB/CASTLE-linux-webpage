@@ -1,4 +1,4 @@
-/* ------------------GLOBAL STYLES-------------------- */
+/* GLOBAL STYLES */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
     color: black;
     font-family: "Michroma", sans-serif;
 }
-/* NAV BAR */
+/* Navigation Bar */
 header nav {
     display: flex;
     justify-content: center;
