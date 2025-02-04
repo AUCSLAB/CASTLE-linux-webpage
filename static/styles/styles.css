@@ -16,9 +16,21 @@ header nav {
     align-items: center;
 }
 /* Image Sizing */
-header #nav_img {
-    width: 180px;
-    height: 180px;
+header #navhome_img {
+    width: 70px;
+    height: 82px;
+}
+header #navarchive_img {
+    width: 165px;
+    height: 80px;
+}
+header #navprojects_img {
+    width: 160px;
+    height: 80px;
+}
+header #navevents_img {
+    width: 140px;
+    height: 80px;
 }
 /* Image and text container */
 .container {
