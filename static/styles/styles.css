@@ -6,11 +6,18 @@
 }
 
 body {
-    color: black;
     font-family: "Michroma", sans-serif;
+}
+
+header #line {
+    width: 20px;
+    height: 20px;
 }
 /* Navigation Bar */
 header nav {
+    font-family: "Micro 5", sans-serif;
+    font-size: 2.5vw;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +54,34 @@ header #navevents_img {
     transform: translate(-50%, -50%);
     z-index: 1;
   }
-  /* Remove margin from right most container */
-  .container:last-child {
+.title-centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+.second-centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+/* Remove margin from right most container */
+.container:last-child {
     margin-right: 0;
+}
+
+#lander {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lander-logo {
+    width: 550px;
+    height: 550px;
 }
