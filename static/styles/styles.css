@@ -92,7 +92,7 @@ header #navevents_img {
 
 .meetings-title-center {
     position: absolute;
-    top: 6%;
+    top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -100,7 +100,37 @@ header #navevents_img {
 
 .meetings-par-center {
     position: absolute;
-    top: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.date-center {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.titlelist-center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.submittalk-info-center {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.submittalk-center {
+    position: absolute;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -116,6 +146,7 @@ header #navevents_img {
 .socialimg-spacing:last-child {
     margin-right: 0;
 }
+
 
 #lander {
     color: white;
@@ -171,6 +202,84 @@ header #navevents_img {
 #meetings-par {
     color: white;
     max-width: 90%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#inline-spacing {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* Space between containers */
+    gap: 20px; 
+}
+
+#inline-spacing-title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* Space between containers */
+    gap: 450px; 
+}
+
+#next-meeting {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    position: relative;
+    text-align: center;
+}
+#submit-talk {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    position: relative;
+    text-align: center;
+}
+
+#nextmeeting-title {
+    color: black;
+    font-size: 1.2vw;
+    font-weight: 100;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#submittalk-title {
+    color: black;
+    font-size: 1.2vw;
+    font-weight: 100;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#next-date {
+    color: #702EC0;
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+
+#meetingtitle-list {
+    color: black;
+    max-width: 200%;
+    text-align: center;
+    margin-top: 20px;
+}
+#submittalk-form {
+    color: black;
+    max-width: 90%;
+    text-align: center;
+    margin-top: 20px;
+}
+#submittalk-info {
+    color: black;
+    max-width: 90%;
+    font-size: .8vw;
     text-align: center;
     margin-top: 20px;
 }

@@ -52,24 +52,6 @@
             
         </header>
         <!-- Socials Bar -->
-        <!-- <nav id="social-bar">
-            <a href="https://github.com/AUCSLAB" class="container">
-                <img src="static/images/github-icon.png" alt="Link to Github" id="socialbar-img">
-                <span class="centered">CASTLE Lab GitHub</span>
-            </a>                  
-            <a href="https://discord.com/invite/z9CBFQzA" class="container">
-                <img src="static/images/discord-icon.png" alt="Link to Discord" id="socialbar-img">
-                <span class="centered">CASTLE Lab Discord</span>
-            </a>
-            <a href="https://www.alfred.edu/academics/undergrad-majors-minors/computer-science.cfm" class="container">
-                <img src="static/images/au_icon.png" alt="Link to AUCS Website" id="socialbar-img">
-                <span class="centered">Alfred CS Website</span>
-            </a>
-            <a href="https://auconnect.alfred.edu/organization/mathandcsclub" class="container">
-                <img src="static/images/aucs_icon_small.png" alt="Link to Axiom Club" id="socialbar-img">
-                <span class="centered" id="socials-text">Alfred Axiom Club</span>
-            </a>
-        </nav> -->
         <nav id="social-bar">
             <span class="social-bar" id="socials-text">CASTLE Lab GitHub</span>
             <span class="social-bar" id="socials-text">CASTLE Lab Discord</span>
@@ -109,8 +91,47 @@
                  Meetings are a great way for students to explore Computer Science beyond the classroom with discussions, guest speakers, and planning events or projects.<br>
                 Join weekly in Myers 107 when classes are in session and join our Discord to get announcements on future meetings.<br>
             </p>
-
          </div>
+         <div id="line2"></div>
+        
+        <!-- <div id="inline-spacing-title">
+            <span id="nextmeeting-title">Next Meeting:</span>
+            <span id="submittalk-title">Submit Your Own Talk Here:</span>
+        </div> -->
+        <div id="inline-spacing">
+            <div class="container" id="next-meeting">
+                <span id="nextmeeting-title">Next Meeting</span>
+                <img src="../static/images/nextmeeting-rect.svg" alt="next meeting rect">
+                <span class="date-center" id="next-date">2/12/25</span>
+                <p class="titlelist-center" id="meetingtitle-list">
+                    Jailbreaking ChatGPT - Professor Beadle<br>
+                    VIM Text Editor Tutorial - Professor Beadle<br>
+                    PC Building Workshop - Chris Huber<br>
+                </p>
+
+            </div>
+            <div class="container" id="submit-talk">
+                <span id="submittalk-title">Submit Your Own Talk Here</span>
+                <img src="../static/images/submittalk-rect.svg" alt="submit talk rect">
+                <p class="submittalk-info-center" id="submittalk-info">
+                    If you have your own talk to give, this is a great way to do it!
+                    Input your name and title of the talk you want to give and it will be checked with an administrator.
+                    After approved, it will be added to next weeks list.
+                </p>
+                <form class="submittalk-center" id="submittalk-form" action="">
+                    <span>Name:</span>
+                    <input type="text">
+                    <br>
+                    <span>Title of Talk:</span>
+                    <input type="text">
+                    <br>
+                    <button>Submit Talk!</button>
+
+                </form>
+
+            </div>
+        </div>
+         <div id="line2"></div>
 
         <script src="script.js"></script>
     </body>
