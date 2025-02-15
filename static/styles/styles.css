@@ -53,18 +53,14 @@ header #navevents_img {
     position: relative;
     text-align: center;
     color: black;
+  }
+.base{
     margin-right: 150px;
   }
-.social-bar {
-    position: relative;
-    text-align: center;
-    color: black;
+.social {
     margin-right: 120px;
 }
-.socialimg-spacing {
-    position: relative;
-    text-align: center;
-    color: black;
+.social-images {
     margin-right: 265px;
 }
 /* Center text in image */
@@ -282,4 +278,29 @@ header #navevents_img {
     font-size: .8vw;
     text-align: center;
     margin-top: 20px;
+}
+
+.rect-lander {
+    width: 1600px;
+    height: 700px;
+    background-color: #953FFF;
+    border: 4px solid black;
+}
+.rect-meet {
+    width: 1600px;
+    height: 300px;
+    background-color: #953FFF;
+    border: 4px solid black;
+}
+.rect-nextmeet {
+    width: 600px;
+    height: 300px;
+    background-color: #F3A00F;
+    border: 4px solid black;
+}
+.rect-submit {
+    width: 600px;
+    height: 300px;
+    background-color: #F3A00F;
+    border: 4px solid black;
 }
